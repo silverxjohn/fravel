@@ -7,11 +7,13 @@ Fractal is designed in such a way that it could be used by any frameworks or no 
 ## Installation
 
 ### Composer
-`$ composer require plata/fravel`
+```shell
+composer require plata/fravel
+```
 
 Then in your `config/app.php`'s provider array:
 
-```
+```php
 'providers' => [
   // ...
   'Plata\Fravel\FravelServiceProvider::class',
@@ -21,7 +23,7 @@ Then in your `config/app.php`'s provider array:
 
 and within the same file,
 
-```
+```php
 'aliases' => [
   // ...
   ''Fractal' => \Plata\Fravel\Facade\Fractal::class',
@@ -53,20 +55,20 @@ Everyone knows that developers doesn't like repetitive tasks. That's why generat
 
 Existing Model and Migration
 
-```
+```shell
 php artisan make:transformer UserTransformer
 ```
 
 For non existing model/migration, just append `-t` flag
 
-```
+```shell
 php artisan make:model User -m -t
 ```
 
 ## Configurations
 
 Fravel ships with a configuration file where you can change any Fractal specific behaviour. Just run:
-```
+```shell
 $ php artisan vendor:publish
 ```
 
