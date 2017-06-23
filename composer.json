@@ -1,0 +1,14 @@
+{
+    "name": "plata/fravel",
+    "description": "A Fravel wrapper for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Aldrin Plata",
+            "email": "king.aldrin31@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
