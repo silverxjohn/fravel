@@ -1,4 +1,6 @@
 # Fravel
+[![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://packagist.org/packages/plata/fravel)
+
 A Fractal wrapper for Laravel
 
 
