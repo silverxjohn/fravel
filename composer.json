@@ -1,6 +1,6 @@
 {
     "name": "plata/fravel",
-    "description": "A Fravel wrapper for Laravel",
+    "description": "A Fractal wrapper for Laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
