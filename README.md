@@ -69,7 +69,7 @@ php artisan make:model User -m -t
 
 Fravel ships with a configuration file where you can change any Fractal specific behaviour. Just run:
 ```shell
-$ php artisan vendor:publish
+php artisan vendor:publish
 ```
 
 ## Support
