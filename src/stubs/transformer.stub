@@ -1,0 +1,22 @@
+<?php
+
+namespace Namespace;
+
+use Model;
+use League\Fractal\TransformerAbstract;
+
+class StubTransformer extends TransformerAbstract
+{
+    /**
+     * Transform an object to
+     *
+     * @param ModelInstance $model
+     * @return array
+     */
+    public function transform(ModelInstance $model)
+    {
+        return [
+
+        ];
+    }
+}
