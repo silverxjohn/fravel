@@ -1,8 +1,17 @@
 {
     "name": "plata/fravel",
     "description": "A Fractal wrapper for Laravel",
+    "keywords": [
+      "api",
+      "transformer",
+      "fractal"
+    ],
     "type": "library",
     "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "league/fractal": "0.16.0"
+    },
     "authors": [
         {
             "name": "John Aldrin Plata",
@@ -10,5 +19,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Plata\\Fravel\\": "src/Fravel/"
+        }
+    }
 }
