@@ -1,11 +1,7 @@
 {
     "name": "plata/fravel",
     "description": "A Fractal wrapper for Laravel",
-    "keywords": [
-      "api",
-      "transformer",
-      "fractal"
-    ],
+    "keywords": [ "api", "transformer", "fractal", "laravel", "json", "standard"],
     "type": "library",
     "license": "MIT",
     "require": {
@@ -21,7 +17,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Plata\\Fravel\\": "src/Fravel/"
+            "Plata\\Fravel\\": "src/"
         }
     }
 }
